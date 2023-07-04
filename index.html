@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Find Your Sport</title>
+</head>
+
+<body>
+    <div class="triangulo"></div>
+    <header>
+        <video id="backgroundVideo" autoplay loop muted>
+            <source id="sourceVideo" src="" type="video/mp4">
+        </video>
+        <div class="logo">
+            <H2>Find Your Sport</H2>
+        </div>
+        <div class="options">
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Explore</li>
+                </a>
+                <a href="#">
+                    <li>Gallery</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="description">
+            <h1 id="changeName"></h1>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sed pariatur sit velit amet sequi,
+                possimus neque repudiandae natus animi libero unde porro aperiam quas eius. Eaque magni quia debitis.
+            </h4>
+            <button class="readMore">Read More</button>
+
+            <div class="optionsSports">
+                <input type="button" onclick="SkiChanges();" id="ski"></input>
+                <input type="button" onclick="SoccerChanges();" id="soccer"></input>
+                <input type="button" onclick="SkateChanges();" id="skate"></input>
+                <input type="button" onclick="Formula1Changes();" id="formula1"></input>
+            </div>
+        </div>
+
+        <div class="socialMedias">
+
+        </div>
+    </main>
+
+    <script src="navbar.js"></script>
+    <script src="default.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

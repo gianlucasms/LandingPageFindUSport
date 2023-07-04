@@ -1,0 +1,2 @@
+imagesAndVideos filter=lfs diff=lfs merge=lfs -text
+imagesAndVideos/* filter=lfs diff=lfs merge=lfs -text
